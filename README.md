@@ -1,0 +1,2 @@
+# SetPublishDefaultToUnCheckAllTargets
+SetPublishDefaultToUnCheckAllTargets
