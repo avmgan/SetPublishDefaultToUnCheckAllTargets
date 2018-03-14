@@ -8,8 +8,11 @@ Create a new folder called SetPublishDefaultToUnCheckAllTargets within C:\Apps\S
 Copy the following files into the new folder structure SetPublishDefaultToUnCheckAllTargets:
 
 /config/
+
 /config/SetPublishDefaultToUnCheckAllTargets.config
+
 /js/
+
 /js/PublishDialogSettings.js
 
 Create new Virtual Directory under WebUI > Editors within IIS with the following values:
