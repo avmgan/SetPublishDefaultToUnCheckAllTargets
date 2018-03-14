@@ -20,12 +20,13 @@ Name: SetPublishDefaultToUnCheckAllTargets
 Location: D:\Apps\SDL Custom\GUI Extensions\SetPublishDefaultToUnCheckAllTargets
 
 Add the following XML fragment at the bottom of the <editors> tag within the %Tridion_Home%\web\WebUI\WebRoot\Configuration\System.config file:
+<pre>
 <editor name="SetPublishDefaultToUnCheckAllTargets" xmlns="http://www.sdltridion.com/2009/GUI/Configuration"> 
    <installpath xmlns="http://www.sdltridion.com/2009/GUI/Configuration">C:\Apps\SDL Custom\Gui Extensions\SetPublishDefaultToUnCheckAllTargets\</installpath> 
    <configuration xmlns="http://www.sdltridion.com/2009/GUI/Configuration">config\SetPublishDefaultToUnCheckAllTargets.config</configuration>
    <vdir xmlns="http://www.sdltridion.com/2009/GUI/Configuration">SetPublishDefaultToUnCheckAllTargets</vdir>
 </editor>
-
+</pre>
 
 Increment the value of the modification attribute of the server element towards the top of the %Tridion_Home%\web\WebUI\WebRoot\Configuration\System.config file. 
 For example, modification attribute value to be incremented:
