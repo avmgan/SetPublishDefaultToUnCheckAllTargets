@@ -16,7 +16,9 @@ Copy the following files into the new folder structure SetPublishDefaultToUnChec
 /js/PublishDialogSettings.js
 
 Create new Virtual Directory under WebUI > Editors within IIS with the following values:
+
 Name: SetPublishDefaultToUnCheckAllTargets
+
 Location: D:\Apps\SDL Custom\GUI Extensions\SetPublishDefaultToUnCheckAllTargets
 
 Add the following XML fragment at the bottom of the <editors> tag within the %Tridion_Home%\web\WebUI\WebRoot\Configuration\System.config file:
